@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff7f9">
+  <meta name="description" content="Rede de Proteção: informações e canais de orientação e apoio contra assédio e violência contra a mulher em Campina Grande - PB.">
+  <title>Rede de Proteção | Orientação e apoio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Rede de Proteção — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M24 39S7 29 7 17.8C7 9.7 17.2 6.5 24 14.1 30.8 6.5 41 9.7 41 17.8 41 29 24 39 24 39Z"/><path d="M16.5 23.5h15M24 16v15"/></svg>
+        </span>
+        <span class="brand-copy"><strong>Rede de Proteção</strong><small>Informação, acolhimento e apoio</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#apoio">Encontrar apoio</a>
+        <a href="#orientacoes">Orientações</a>
+        <a href="#privacidade">Privacidade</a>
+      </nav>
+
+      <button class="quick-exit" id="quickExit" type="button" title="Abre uma página neutra; não apaga o histórico do navegador.">
+        <span aria-hidden="true">↗</span> Saída rápida
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-pad" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> CAMPINA GRANDE · PARAÍBA</p>
+          <h1>Você merece ser ouvida, <em>acolhida e protegida.</em></h1>
+          <p class="hero-description">Encontre canais de orientação e serviços de apoio contra o assédio e a violência contra a mulher. Você não precisa contar sua história para consultar estas informações.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#apoio">Encontrar apoio <span aria-hidden="true">→</span></a>
+            <a class="button button-soft" href="#orientacoes">Ver orientações</a>
+          </div>
+          <div class="trust-note"><span class="check-mark" aria-hidden="true">✓</span> Sem cadastro, sem formulário de relato e sem geolocalização.</div>
+        </div>
+
+        <aside class="urgent-card" aria-labelledby="urgentTitle">
+          <div class="urgent-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 5 41 12v11c0 10-7.3 16.2-17 20C14.3 39.2 7 33 7 23V12L24 5Z"/><path d="M24 15v11M24 32h.02"/></svg>
+          </div>
+          <p class="urgent-kicker">PRECISA DE AJUDA AGORA?</p>
+          <h2 id="urgentTitle">Se há perigo imediato, ligue 190.</h2>
+          <p>O telefone 190 é indicado para emergências que exigem intervenção policial.</p>
+          <a class="button button-emergency" href="tel:190" aria-label="Ligar para a Polícia Militar no número 190">Ligar 190 <span aria-hidden="true">↗</span></a>
+          <div class="urgent-divider"></div>
+          <p class="urgent-secondary"><strong>Precisa de orientação ou acolhimento?</strong> O Ligue 180 funciona gratuitamente, 24 horas por dia.</p>
+          <a class="text-link" href="tel:180">Ligar 180</a>
+          <a class="text-link" href="https://wa.me/556196100180" target="_blank" rel="noopener noreferrer">WhatsApp do Ligue 180 ↗</a>
+        </aside>
+      </div>
+      <div class="hero-decoration decoration-one" aria-hidden="true"></div>
+      <div class="hero-decoration decoration-two" aria-hidden="true"></div>
+    </section>
+
+    <section class="notice-strip" aria-label="Aviso importante">
+      <div class="container notice-inner">
+        <span class="notice-icon" aria-hidden="true">♡</span>
+        <p><strong>Você decide o próximo passo.</strong> Este site oferece informações; não é um serviço de emergência nem substitui o atendimento dos órgãos responsáveis.</p>
+        <a href="#canais-nacionais">Ver canais oficiais <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section-pad support-section" id="apoio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">REDE DE APOIO</p>
+            <h2>Encontre o apoio mais adequado</h2>
+            <p class="section-intro">Pesquise por nome, tipo de serviço ou palavra-chave. Os canais nacionais estão disponíveis abaixo, mesmo quando a pesquisa não encontra resultados.</p>
+          </div>
+          <span class="heading-flower" aria-hidden="true">✿</span>
+        </div>
+
+        <div class="search-panel" role="search" aria-label="Pesquisar serviços de apoio">
+          <label class="search-box" for="serviceSearch">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+            <input id="serviceSearch" type="search" autocomplete="off" placeholder="Ex.: orientação, delegacia, CRAM..." aria-describedby="searchHint">
+            <button id="clearSearch" class="clear-search" type="button" hidden>Limpar</button>
+          </label>
+          <p id="searchHint" class="search-hint">A pesquisa acontece nesta página. O texto não é enviado a um servidor pelo código do protótipo.</p>
+          <div class="filter-row" id="categoryFilters" aria-label="Filtrar por categoria">
+            <button class="filter-chip is-active" type="button" data-filter="Todos" aria-pressed="true">Todos</button>
+            <button class="filter-chip" type="button" data-filter="Orientação e denúncia" aria-pressed="false">Orientação e denúncia</button>
+            <button class="filter-chip" type="button" data-filter="Atendimento especializado" aria-pressed="false">Atendimento especializado</button>
+            <button class="filter-chip" type="button" data-filter="Emergência" aria-pressed="false">Emergência</button>
+          </div>
+        </div>
+
+        <div class="results-header">
+          <h3>Serviços e canais</h3>
+          <p id="resultsCount" aria-live="polite" aria-atomic="true">Carregando serviços…</p>
+        </div>
+        <div class="service-grid" id="serviceGrid" aria-live="polite" aria-busy="true"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>Nenhum resultado encontrado</h3>
+          <p>Tente outra palavra ou limpe os filtros. Os canais nacionais de apoio continuam disponíveis nesta página.</p>
+          <button class="button button-soft" id="resetFilters" type="button">Limpar pesquisa e filtros</button>
+        </div>
+        <p class="source-caveat"><span aria-hidden="true">ⓘ</span> Os contatos locais foram encontrados em páginas institucionais públicas. A confirmação operacional direta ainda precisa ser feita; confirme o atendimento antes de se deslocar. Registros pendentes estão identificados como tal.</p>
+      </div>
+    </section>
+
+    <section class="national-section section-pad" id="canais-nacionais">
+      <div class="container">
+        <div class="section-heading compact-heading">
+          <div>
+            <p class="eyebrow">CANAIS NACIONAIS</p>
+            <h2>Dois números importantes</h2>
+            <p class="section-intro">Escolha conforme a situação. Em risco imediato, não espere por uma orientação online.</p>
+          </div>
+        </div>
+        <div class="national-grid">
+          <article class="national-card card-180">
+            <div class="national-topline"><span class="round-icon" aria-hidden="true">♡</span><span class="status-pill status-verified-source">Canal oficial</span></div>
+            <p class="number-label">ORIENTAÇÃO E ACOLHIMENTO</p>
+            <h3>Ligue <span>180</span></h3>
+            <p>Central de Atendimento à Mulher. Orienta sobre direitos e serviços, recebe denúncias e faz encaminhamentos. Atendimento gratuito, 24 horas por dia.</p>
+            <div class="national-actions">
+              <a class="button button-primary" href="tel:180">Ligar 180</a>
+              <a class="button button-outline" href="https://wa.me/556196100180" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </div>
+            <a class="source-link" href="https://www.gov.br/mulheres/pt-br/ligue180" target="_blank" rel="noopener noreferrer">Fonte oficial do Ministério das Mulheres ↗</a>
+          </article>
+          <article class="national-card card-190">
+            <div class="national-topline"><span class="round-icon round-icon-dark" aria-hidden="true">!</span><span class="status-pill status-urgent">Emergência</span></div>
+            <p class="number-label">RISCO IMEDIATO</p>
+            <h3>Ligue <span>190</span></h3>
+            <p>Polícia Militar. Use em situações de emergência, violência acontecendo naquele momento ou quando houver necessidade de intervenção policial.</p>
+            <div class="national-actions">
+              <a class="button button-emergency" href="tel:190">Ligar 190</a>
+            </div>
+            <p class="card-footnote">Se não puder falar com segurança, avalie a forma mais segura de pedir ajuda disponível na sua situação.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad guidance-section" id="orientacoes">
+      <div class="container guidance-grid">
+        <div class="guidance-intro">
+          <p class="eyebrow">INFORMAÇÃO COM CUIDADO</p>
+          <h2>Você pode buscar ajuda no seu tempo.</h2>
+          <p>Não existe uma única decisão certa para todas as situações. Se estiver apoiando alguém, escute sem julgar e respeite as escolhas dessa pessoa.</p>
+          <a class="text-link dark-link" href="https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/como-ser-rede-de-apoio-para-uma-mulher-em-situacao-de-violencia" target="_blank" rel="noopener noreferrer">Leia orientações oficiais para ser rede de apoio ↗</a>
+        </div>
+        <div class="guidance-steps">
+          <article class="guidance-step"><span>01</span><div><h3>Se houver perigo imediato</h3><p>Acione o 190. Evite confrontar a pessoa agressora se isso puder aumentar o risco.</p></div></article>
+          <article class="guidance-step"><span>02</span><div><h3>Se precisar conversar ou se informar</h3><p>O Ligue 180 pode orientar sobre direitos, serviços disponíveis e encaminhamento de denúncias.</p></div></article>
+          <article class="guidance-step"><span>03</span><div><h3>Se estiver ajudando alguém</h3><p>Escute, pergunte do que a pessoa precisa e evite tomar decisões por ela. Compartilhe informações somente se for seguro.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy-section section-pad" id="privacidade">
+      <div class="container privacy-card">
+        <div class="privacy-symbol" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 5 40 12v11c0 10-7 16-16 20C15 39 8 33 8 23V12L24 5Z"/><rect x="17" y="21" width="14" height="11" rx="2"/><path d="M20 21v-4a4 4 0 0 1 8 0v4"/></svg>
+        </div>
+        <div class="privacy-copy">
+          <p class="eyebrow">PRIVACIDADE E SEGURANÇA</p>
+          <h2>Suas informações importam.</h2>
+          <p>Este MVP não pede cadastro, não recebe relatos, não solicita localização e não usa cookies de rastreamento ou analytics no código da aplicação. A pesquisa é feita localmente no navegador.</p>
+          <p class="privacy-warning"><strong>Importante:</strong> o navegador pode manter o histórico e a hospedagem pode registrar dados técnicos de acesso, como IP e horário. Esta página não apaga esses registros e não garante que sua navegação seja invisível para outras pessoas com acesso ao dispositivo.</p>
+          <details class="privacy-details">
+            <summary>Saiba mais sobre os limites do protótipo</summary>
+            <p>Antes de uma publicação real, a equipe deve documentar o provedor de hospedagem, os registros coletados, a finalidade e o prazo de retenção, além de definir um responsável e um canal de contato sobre privacidade. O uso de serviços externos, como WhatsApp, segue as regras desses próprios serviços.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="disclaimer-bar">
+      <div class="container"><span aria-hidden="true">♡</span><p><strong>Um lembrete:</strong> você não está sozinha. A Rede de Proteção é um projeto informativo e não substitui atendimento de emergência nem representa um serviço público oficial.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#inicio">Rede de Proteção <span aria-hidden="true">♡</span></a>
+      <p>Projeto acadêmico · MVP informativo · Campina Grande — PB</p>
+      <a href="#privacidade">Privacidade e limites do site</a>
+      <p class="footer-note">Contatos e condições dos serviços locais devem ser reconfirmados antes da publicação.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
